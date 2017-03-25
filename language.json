@@ -1,0 +1,4753 @@
+[
+  {
+    "type": "Language Family",
+    "name": "Indo-European languages",
+    "branch": [
+      {
+        "type": "Language Branch",
+        "name": "Albanian",
+        "language": [],
+        "country": [
+          {
+            "name": "Albania",
+            "status": "official"
+          },
+          {
+            "name": "Kosovo",
+            "status": "official"
+          },
+          {
+            "name": "Macedonia",
+            "status": "significant minority, 30% and official in the Western regions"
+          },
+          {
+            "name": "Italy",
+            "status": "significant minority, also as Arbëreshë\nsome education"
+          },
+          {
+            "name": "Montenegro",
+            "status": "minority"
+          },
+          {
+            "name": "Greece",
+            "status": "significant minority, also as Arvanitika"
+          },
+          {
+            "name": "Serbia",
+            "status": "minority"
+          },
+          {
+            "name": "Ukraine",
+            "status": "significant minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Armenian",
+        "language": [],
+        "country": [
+          {
+            "name": "Armenia",
+            "status": "official"
+          },
+          {
+            "name": "Cyprus",
+            "status": "minority"
+          },
+          {
+            "name": "Georgia",
+            "status": "significant minority"
+          },
+          {
+            "name": "Iran",
+            "status": "minority"
+          },
+          {
+            "name": "Iraq",
+            "status": "minority"
+          },
+          {
+            "name": "Israel",
+            "status": "significant minority"
+          },
+          {
+            "name": "Lebanon",
+            "status": "minority"
+          },
+          {
+            "name": "Syria",
+            "status": "minority"
+          },
+          {
+            "name": "Turkey",
+            "status": "minority"
+          },
+          {
+            "name": "France",
+            "status": "minority"
+          },
+          {
+            "name": "United Kingdom",
+            "status": "minority"
+          },
+          {
+            "name": "Spain",
+            "status": "minority"
+          },
+          {
+            "name": "Greece",
+            "status": "minority"
+          },
+          {
+            "name": "Russia",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Argentina",
+            "status": "minority"
+          },
+          {
+            "name": "Brazil",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Baltic",
+        "language": [],
+        "country": [
+          {
+            "name": "Canada",
+            "status": "unofficial, spoken in Canada"
+          },
+          {
+            "name": "Latvia",
+            "status": "unofficial, spoken in Latgale"
+          },
+          {
+            "name": "Russia",
+            "status": "significant minority in Siberia"
+          },
+          {
+            "name": "Latvia",
+            "status": "official"
+          },
+          {
+            "name": "Latvia",
+            "status": "minority"
+          },
+          {
+            "name": "Lithuania",
+            "status": "official"
+          },
+          {
+            "name": "Poland",
+            "status": "minority, majority in the city of Puńsk"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Celtic",
+        "language": [],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "Germanic",
+        "language": [
+          {
+            "type": "Language",
+            "name": "Dutch",
+            "country": [
+              {
+                "name": "Netherlands",
+                "status": "official"
+              },
+              {
+                "name": "Belgium",
+                "status": "co-official with French and German"
+              },
+              {
+                "name": "France",
+                "status": "in French Flanders"
+              },
+              {
+                "name": "Germany",
+                "status": "in Low Rhine Country"
+              },
+              {
+                "name": "South Africa",
+                "status": "spoken as minority, often used together with daughter language Afrikaans"
+              },
+              {
+                "name": "Namibia",
+                "status": "spoken as minority, often used together with daughter language Afrikaans"
+              },
+              {
+                "name": "Indonesia",
+                "status": "regional language in minority (historic language)"
+              },
+              {
+                "name": "New Zealand",
+                "status": "Minority"
+              },
+              {
+                "name": "Aruba",
+                "status": "co-official with Papiamento"
+              },
+              {
+                "name": "Curaçao",
+                "status": "co-official with English and Papiamento"
+              },
+              {
+                "name": "Sint Maarten",
+                "status": "co-official with English"
+              },
+              {
+                "name": "United States",
+                "status": "spoken in minority primarily in Michigan and Indiana"
+              },
+              {
+                "name": "Canada",
+                "status": "Minority"
+              },
+              {
+                "name": "Suriname",
+                "status": "official"
+              },
+              {
+                "name": "French Guiana",
+                "status": "unofficial, spoken in Saint-Laurent-du-Maroni"
+              }
+            ]
+          },
+          {
+            "type": "Language",
+            "name": "English",
+            "country": []
+          },
+          {
+            "type": "Language",
+            "name": "German",
+            "country": [
+              {
+                "name": "Austria",
+                "status": "official"
+              },
+              {
+                "name": "Germany",
+                "status": "official"
+              },
+              {
+                "name": "Liechtenstein",
+                "status": "official"
+              },
+              {
+                "name": "Switzerland",
+                "status": "co-official with French and Italian"
+              },
+              {
+                "name": "Belgium",
+                "status": "co-official with French and Flemish"
+              },
+              {
+                "name": "Egypt",
+                "status": "minority"
+              },
+              {
+                "name": "Hungary",
+                "status": "co-official with Hungarian in the city of Sopron"
+              },
+              {
+                "name": "Italy",
+                "status": "co-official with Italian in South Tyrol"
+              },
+              {
+                "name": "Lithuania",
+                "status": "minority"
+              },
+              {
+                "name": "Luxembourg",
+                "status": "co-official with French and Luxembourgish"
+              },
+              {
+                "name": "Poland",
+                "status": "co-official as auxiliary language in the Opole Voivodeship"
+              },
+              {
+                "name": "Vatican City",
+                "status": "official with other languages, language of the Swiss Guard"
+              },
+              {
+                "name": "France",
+                "status": "minority in Alsace and Lorraine"
+              },
+              {
+                "name": "Czech Republic",
+                "status": "minority"
+              },
+              {
+                "name": "Denmark",
+                "status": "minority"
+              },
+              {
+                "name": "Romania",
+                "status": "minority"
+              },
+              {
+                "name": "Russia",
+                "status": "minority"
+              },
+              {
+                "name": "Namibia",
+                "status": "co-official as auxiliary language"
+              },
+              {
+                "name": "Kazakhstan",
+                "status": "minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "Costa Rica",
+                "status": "minority"
+              },
+              {
+                "name": "Guatemala",
+                "status": "minority"
+              },
+              {
+                "name": "Mexico",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority[6]"
+              },
+              {
+                "name": "Argentina",
+                "status": "minority"
+              },
+              {
+                "name": "Brazil",
+                "status": "minority"
+              },
+              {
+                "name": "Chile",
+                "status": "minority"
+              },
+              {
+                "name": "Colombia",
+                "status": "minority"
+              },
+              {
+                "name": "Paraguay",
+                "status": "minority"
+              },
+              {
+                "name": "Peru",
+                "status": "minority"
+              },
+              {
+                "name": "Venezuela",
+                "status": "minority (see: Colonia Tovar dialect)"
+              }
+            ]
+          }
+        ],
+        "country": [
+          {
+            "name": "South Africa",
+            "status": "co-official with 10 other languages"
+          },
+          {
+            "name": "Namibia",
+            "status": "unofficial"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Netherlands",
+            "status": "minority"
+          },
+          {
+            "name": "United Kingdom",
+            "status": "minority"
+          },
+          {
+            "name": "Germany",
+            "status": "minority"
+          },
+          {
+            "name": "Belgium",
+            "status": "minority"
+          },
+          {
+            "name": "Australia",
+            "status": "minority"
+          },
+          {
+            "name": "Argentina",
+            "status": "minority"
+          },
+          {
+            "name": "FranceAlsace",
+            "status": "regional language in  Alsace"
+          },
+          {
+            "name": "Denmark",
+            "status": "official"
+          },
+          {
+            "name": "GermanySchleswig-Holstein",
+            "status": "in  Schleswig-Holstein, official recognised minority language"
+          },
+          {
+            "name": "Faroe Islands",
+            "status": "co-official alongside Faroese"
+          },
+          {
+            "name": "Greenland",
+            "status": "minority"
+          },
+          {
+            "name": "Iceland",
+            "status": "minority"
+          },
+          {
+            "name": "Faroe Islands",
+            "status": "co-official with Danish"
+          },
+          {
+            "name": "Denmark",
+            "status": "unofficial"
+          },
+          {
+            "name": "Denmark",
+            "status": "minority"
+          },
+          {
+            "name": "Germany",
+            "status": "official recognised minority language"
+          },
+          {
+            "name": "NetherlandsFriesland",
+            "status": "minority language in  Friesland"
+          },
+          {
+            "name": "Iceland",
+            "status": "official"
+          },
+          {
+            "name": "Denmark",
+            "status": "minority"
+          },
+          {
+            "name": "Germany",
+            "status": "Niederdeutsch or more usual Plattdeutsch, recognized as regional language"
+          },
+          {
+            "name": "Netherlands",
+            "status": "Nederduits, recognized as regional language"
+          },
+          {
+            "name": "Luxembourg",
+            "status": "co-official with French and German"
+          },
+          {
+            "name": "Belgium",
+            "status": "minority language in the Belgian Province of Luxembourg"
+          },
+          {
+            "name": "Germany",
+            "status": "minority language in the German Regierungsbezirk Trier (\"moselfränkisch\")"
+          },
+          {
+            "name": "Norway",
+            "status": "official, including Svalbard and Jan Mayen"
+          },
+          {
+            "name": "Scotland",
+            "status": "minority in Scotland"
+          },
+          {
+            "name": "Ireland",
+            "status": "minority in Ireland"
+          },
+          {
+            "name": "Sweden",
+            "status": "official"
+          },
+          {
+            "name": "Finland",
+            "status": "co-official with Finnish."
+          },
+          {
+            "name": "Estonia",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Greek",
+        "language": [],
+        "country": [
+          {
+            "name": "Greece",
+            "status": "official"
+          },
+          {
+            "name": "Cyprus",
+            "status": "co-official with Turkish"
+          },
+          {
+            "name": "Albania",
+            "status": "significant minority, widely spoken and co-official with Albanian in Himara, Dropull, Finiq and Derviçan regions"
+          },
+          {
+            "name": "Macedonia",
+            "status": "minority"
+          },
+          {
+            "name": "Russia",
+            "status": "minority"
+          },
+          {
+            "name": "Ukraine",
+            "status": "minority"
+          },
+          {
+            "name": "Turkey",
+            "status": "minority"
+          },
+          {
+            "name": "Egypt",
+            "status": "minority"
+          },
+          {
+            "name": "Italy",
+            "status": "minority"
+          },
+          {
+            "name": "Armenia",
+            "status": "minority"
+          },
+          {
+            "name": "Romania",
+            "status": "minority"
+          },
+          {
+            "name": "Hungary",
+            "status": "minority"
+          },
+          {
+            "name": "Syria",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Australia",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Iranian",
+        "language": [],
+        "country": [
+          {
+            "name": "Afghanistan",
+            "status": "minority"
+          },
+          {
+            "name": "Bahrain",
+            "status": "minority"
+          },
+          {
+            "name": "Iran",
+            "status": "significant minority in Balochistan"
+          },
+          {
+            "name": "Oman",
+            "status": "minority"
+          },
+          {
+            "name": "Pakistan",
+            "status": "Majority in Balochistan"
+          },
+          {
+            "name": "United Arab Emirates",
+            "status": "minority"
+          },
+          {
+            "name": "Afghanistan",
+            "status": "co-official as Dari, with Pashto"
+          },
+          {
+            "name": "Bahrain",
+            "status": "minority"
+          },
+          {
+            "name": "Germany",
+            "status": "minority"
+          },
+          {
+            "name": "Iran",
+            "status": "official"
+          },
+          {
+            "name": "Iraq",
+            "status": "significant minority"
+          },
+          {
+            "name": "Pakistan",
+            "status": "minority"
+          },
+          {
+            "name": "Qatar",
+            "status": "minority"
+          },
+          {
+            "name": "Russia",
+            "status": "minority"
+          },
+          {
+            "name": "Tajikistan",
+            "status": "official, as Tajik"
+          },
+          {
+            "name": "United Arab Emirates",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Uzbekistan",
+            "status": "minority"
+          },
+          {
+            "name": "Afghanistan",
+            "status": "significant minority"
+          },
+          {
+            "name": "Iran",
+            "status": "minority"
+          },
+          {
+            "name": "Kazakhstan",
+            "status": "minority"
+          },
+          {
+            "name": "Kyrgyzstan",
+            "status": "minority"
+          },
+          {
+            "name": "Pakistan",
+            "status": "majority in various regions"
+          },
+          {
+            "name": "Tajikistan",
+            "status": "official"
+          },
+          {
+            "name": "Uzbekistan",
+            "status": "minority"
+          },
+          {
+            "name": "China",
+            "status": "minority"
+          },
+          {
+            "name": "Turkmenistan",
+            "status": "minority"
+          },
+          {
+            "name": "Russia",
+            "status": "minority"
+          },
+          {
+            "name": "Armenia",
+            "status": "recognized minority"
+          },
+          {
+            "name": "Iran",
+            "status": "regional"
+          },
+          {
+            "name": "Iraq",
+            "status": "co-official with Arabic"
+          },
+          {
+            "name": "Syria",
+            "status": "significant minority"
+          },
+          {
+            "name": "Turkey",
+            "status": "significant minority"
+          },
+          {
+            "name": "Iran",
+            "status": "unofficial, in Māzandarān Province"
+          },
+          {
+            "name": "Afghanistan",
+            "status": "co-official with Dari"
+          },
+          {
+            "name": "Iran",
+            "status": "minority"
+          },
+          {
+            "name": "Pakistan",
+            "status": "majority in Khyber Pakhtunkhwa and FATA"
+          },
+          {
+            "name": "United Arab Emirates",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Indo-Aryan",
+        "language": [
+          {
+            "type": "Language",
+            "name": "Bengali language",
+            "country": [
+              {
+                "name": "Bangladesh",
+                "status": "official"
+              },
+              {
+                "name": "India",
+                "status": "official, along with 21 others; primarily spoken in the Indian states of West Bengal, Tripura, Assam, with significant minority in Bihar, Jharkhand and Orissa"
+              },
+              {
+                "name": "Saudi Arabia",
+                "status": "significant minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "significant minority"
+              },
+              {
+                "name": "Oman",
+                "status": "minority"
+              },
+              {
+                "name": "South Korea",
+                "status": "minority"
+              },
+              {
+                "name": "Japan",
+                "status": "minority"
+              },
+              {
+                "name": "Qatar",
+                "status": "minority"
+              },
+              {
+                "name": "Kuwait",
+                "status": "minority"
+              },
+              {
+                "name": "Malaysia",
+                "status": "minority"
+              },
+              {
+                "name": "Singapore",
+                "status": "minority"
+              },
+              {
+                "name": "Maldives",
+                "status": "Official Language is Dhivehi, (which is the language used by Only Maldivians)"
+              },
+              {
+                "name": "Nepal",
+                "status": "minority"
+              },
+              {
+                "name": "Pakistan",
+                "status": "minority. Mostly used in Karachi, where it holds the status as that of a recognized secondary language[7][8][9][10]"
+              },
+              {
+                "name": "Sierra Leone",
+                "status": "honorary official language, along with English"
+              },
+              {
+                "name": "South Africa",
+                "status": "minority"
+              },
+              {
+                "name": "Italy",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "significant minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              }
+            ]
+          },
+          {
+            "type": "Language",
+            "name": "Domari",
+            "country": [
+              {
+                "name": "Algeria",
+                "status": "minority"
+              },
+              {
+                "name": "Egypt",
+                "status": "minority"
+              },
+              {
+                "name": "Morocco",
+                "status": "minority"
+              },
+              {
+                "name": "Sudan",
+                "status": "minority"
+              },
+              {
+                "name": "Tunisia",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "minority"
+              },
+              {
+                "name": "Iran",
+                "status": "significant minority"
+              },
+              {
+                "name": "Iraq",
+                "status": "minority"
+              },
+              {
+                "name": "Pakistan",
+                "status": "minority"
+              },
+              {
+                "name": "Libya",
+                "status": "minority"
+              },
+              {
+                "name": "Syria",
+                "status": "minority"
+              },
+              {
+                "name": "Turkey",
+                "status": "minority"
+              },
+              {
+                "name": "Israel",
+                "status": "minority"
+              },
+              {
+                "name": "Afghanistan",
+                "status": "minority"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority"
+              },
+              {
+                "name": "Jordan",
+                "status": "minority"
+              },
+              {
+                "name": "Iraq",
+                "status": "minority"
+              },
+              {
+                "name": "Lebanon",
+                "status": "minority"
+              },
+              {
+                "name": "Uzbekistan",
+                "status": "minority"
+              },
+              {
+                "name": "Armenia",
+                "status": "minority"
+              },
+              {
+                "name": "Azerbaijan",
+                "status": "minority"
+              },
+              {
+                "name": "Georgia",
+                "status": "minority"
+              },
+              {
+                "name": "Turkmenistan",
+                "status": "minority"
+              },
+              {
+                "name": "Kazakhstan",
+                "status": "minority"
+              },
+              {
+                "name": "Tajikistan",
+                "status": "minority"
+              },
+              {
+                "name": "Kuwait",
+                "status": "minority"
+              },
+              {
+                "name": "Kyrgyzstan",
+                "status": "minority"
+              },
+              {
+                "name": "Russia",
+                "status": "minority"
+              }
+            ]
+          },
+          {
+            "type": "Language",
+            "name": "Romani",
+            "country": []
+          },
+          {
+            "type": "Language",
+            "name": "Hindi",
+            "country": [
+              {
+                "name": "India",
+                "status": "official, along with 21 others; official in the Indian states of Bihar, Chhattisgarh, Haryana, Himachal Pradesh, Jharkhand, Madhya Pradesh, Rajasthan, Uttar Pradesh, and Uttarakhand."
+              },
+              {
+                "name": "Nepal",
+                "status": "significant minority, 8 million speakers"
+              },
+              {
+                "name": "Pakistan",
+                "status": ""
+              },
+              {
+                "name": "Yemen",
+                "status": "minority, 232,760 speakers"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "minority"
+              },
+              {
+                "name": "Saudi Arabia",
+                "status": "minority"
+              },
+              {
+                "name": "Singapore",
+                "status": "minority, 5,000 speakers"
+              },
+              {
+                "name": "Fiji",
+                "status": "Fiji Hindi is an official language"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              },
+              {
+                "name": "New Zealand",
+                "status": "minority, 20,000 speakers"
+              },
+              {
+                "name": "South Africa",
+                "status": "significant minority, 890,292 speakers"
+              },
+              {
+                "name": "Mauritius",
+                "status": "significant minority, 685,170 speakers"
+              },
+              {
+                "name": "Uganda",
+                "status": "minority, 147,000 speakers"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "Germany",
+                "status": "minority, 30,000 speakers"
+              },
+              {
+                "name": "United States",
+                "status": "minority, 100,000 speakers"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "Suriname",
+                "status": "minority"
+              },
+              {
+                "name": "Guyana",
+                "status": "minority"
+              },
+              {
+                "name": "Trinidad and Tobago",
+                "status": "minority"
+              }
+            ]
+          },
+          {
+            "type": "Language",
+            "name": "Gujarati",
+            "country": [
+              {
+                "name": "India",
+                "status": "official in Gujarat, Daman and Diu and Dadra and Nagar Haveli"
+              },
+              {
+                "name": "Pakistan",
+                "status": "significant minority"
+              },
+              {
+                "name": "Kenya",
+                "status": "minority"
+              },
+              {
+                "name": "Mauritius",
+                "status": "minority"
+              },
+              {
+                "name": "Tanzania",
+                "status": "minority"
+              },
+              {
+                "name": "Uganda",
+                "status": "minority"
+              },
+              {
+                "name": "Zimbabwe",
+                "status": "minority"
+              },
+              {
+                "name": "South Africa",
+                "status": "minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "significant minority"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "majority in Anga, significant minority in the rest of the country"
+              },
+              {
+                "name": "Nepal",
+                "status": "minority language, in Terai region"
+              },
+              {
+                "name": "Bhutan",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official language along with 21 others"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "Bhutan",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "majority in Uttar Pradesh, minority in Bihar, Madhya Pradesh, and Delhi"
+              },
+              {
+                "name": "India",
+                "status": "minority"
+              },
+              {
+                "name": "Fiji",
+                "status": "minority"
+              },
+              {
+                "name": "Guyana",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "in Bihar, Jharkhand, and Uttar Pradesh"
+              },
+              {
+                "name": "Mauritius",
+                "status": "minority"
+              },
+              {
+                "name": "Nepal",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "Suriname",
+                "status": "minority"
+              },
+              {
+                "name": "Trinidad and Tobago",
+                "status": "minority"
+              },
+              {
+                "name": "Seychelles",
+                "status": "minority"
+              },
+              {
+                "name": "South Africa",
+                "status": "minority"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "minority, mostly in Manipur, Assam and Tripura"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority"
+              },
+              {
+                "name": "Burma",
+                "status": "minority"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority, mostly in Chittagong Division"
+              },
+              {
+                "name": "India",
+                "status": "minority, mostly in Tripura, Mizoram, Arunachal Pradesh"
+              },
+              {
+                "name": "India",
+                "status": "majority in Chhattisgarh, minority in Madhya Pradesh, Orissa, and Bihar"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "significant minority, major language of Chittagong Division of Bangladesh"
+              },
+              {
+                "name": "Burma",
+                "status": "minority, mostly in Arakan and Yangon"
+              },
+              {
+                "name": "Oman",
+                "status": "minority"
+              },
+              {
+                "name": "Saudi Arabia",
+                "status": "minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "minority"
+              },
+              {
+                "name": "Qatar",
+                "status": "minority"
+              },
+              {
+                "name": "Kuwait",
+                "status": "minority"
+              },
+              {
+                "name": "Pakistan",
+                "status": "minority, mostly in Karachi"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "in Lakshadweep"
+              },
+              {
+                "name": "Maldives",
+                "status": "official"
+              },
+              {
+                "name": "Pakistan",
+                "status": "in Punjab, and Azad Kashmir"
+              },
+              {
+                "name": "India",
+                "status": "in Jammu and Kashmir, Punjab, and Himachal Pradesh"
+              },
+              {
+                "name": "India",
+                "status": "minority, mostly in Assam, Meghalaya, Arunachal Pradesh and West Bengal"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "in Madhya Pradesh, Chhattisgarh, and Andhra Pradesh"
+              },
+              {
+                "name": "Pakistan",
+                "status": "minority"
+              },
+              {
+                "name": "Afghanistan",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official, spoken in Delhi, Jammu and Kashmir, Punjab, and Uttar Pradesh"
+              },
+              {
+                "name": "Pakistan",
+                "status": "spoken in Azad Kashmir"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority, mostly by immigrants from Azad Kashmir"
+              },
+              {
+                "name": "India",
+                "status": "minority, spoken in Maharashtra, Gujarat"
+              },
+              {
+                "name": "Pakistan",
+                "status": "majority in Chitral, minority in Gilgit"
+              },
+              {
+                "name": "India",
+                "status": "official in Karnataka state"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "majority in Uttarakhand, minority in Assam"
+              },
+              {
+                "name": "Armenia",
+                "status": "minority"
+              },
+              {
+                "name": "Azerbaijan",
+                "status": "minority"
+              },
+              {
+                "name": "Bulgaria",
+                "status": "minority"
+              },
+              {
+                "name": "Georgia",
+                "status": "minority"
+              },
+              {
+                "name": "Iran",
+                "status": "minority"
+              },
+              {
+                "name": "Russia",
+                "status": "minority"
+              },
+              {
+                "name": "Syria",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official in Bihar"
+              },
+              {
+                "name": "India",
+                "status": "official in Bihar"
+              },
+              {
+                "name": "Nepal",
+                "status": "significant minority in Terai"
+              },
+              {
+                "name": "India",
+                "status": "minority, mostly in Jharkhand and West Bengal"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official along with 21 others, widely spoken in Maharashtra & Goa, Gujarat, Madhya Pradesh, Sindh, Karnataka, Andhra Pradesh, Tamil Nadu, Chhattisgarh, Dadra and Nagar Haveli, Telangana, Daman and Diu."
+              },
+              {
+                "name": "Israel",
+                "status": "minority"
+              },
+              {
+                "name": "Mauritius",
+                "status": "minority"
+              },
+              {
+                "name": "Singapore",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "Significant minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "Significant minority"
+              },
+              {
+                "name": "Australia",
+                "status": "Significant minority"
+              },
+              {
+                "name": "New Zealand",
+                "status": "Significant minority"
+              },
+              {
+                "name": "South Africa",
+                "status": "Significant minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "Significant minority"
+              },
+              {
+                "name": "Bahrain",
+                "status": "Significant minority"
+              },
+              {
+                "name": "India",
+                "status": "primarily in Rajasthan and Gujarat and it is also spoken in west Bengal, Bihar,jharkhand, eastern u.p, assam, and northeastern states"
+              },
+              {
+                "name": "Bhutan",
+                "status": "unofficial"
+              },
+              {
+                "name": "Hong Kong",
+                "status": "unofficial"
+              },
+              {
+                "name": "India",
+                "status": "official in Sikkim, regional language in West Bengal"
+              },
+              {
+                "name": "Myanmar",
+                "status": "unofficial"
+              },
+              {
+                "name": "Nepal",
+                "status": "official"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "unofficial"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official in Orissa"
+              },
+              {
+                "name": "India",
+                "status": "official with others"
+              },
+              {
+                "name": "Pakistan",
+                "status": "majority in Punjab"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "significant minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official along with others"
+              },
+              {
+                "name": "Pakistan",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "minority"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority"
+              },
+              {
+                "name": "Nepal",
+                "status": "minority"
+              },
+              {
+                "name": "Burma",
+                "status": "minority, mostly in Arakan, Burma"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority, mostly in Chittagong Division, Bangladesh"
+              },
+              {
+                "name": "Pakistan",
+                "status": "minority, mostly in Karachi"
+              },
+              {
+                "name": "Saudi Arabia",
+                "status": "minority"
+              },
+              {
+                "name": "Oman",
+                "status": "minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "minority"
+              },
+              {
+                "name": "Thailand",
+                "status": "minority"
+              },
+              {
+                "name": "Malaysia",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "minority"
+              },
+              {
+                "name": "Hong Kong",
+                "status": "minority"
+              },
+              {
+                "name": "India",
+                "status": "official with others"
+              },
+              {
+                "name": "Oman",
+                "status": "minority"
+              },
+              {
+                "name": "Pakistan",
+                "status": "majority in Sindh"
+              },
+              {
+                "name": "Philippines",
+                "status": "minority[citation needed]"
+              },
+              {
+                "name": "Singapore",
+                "status": "minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "Sri Lanka",
+                "status": "official; known natively as Sinhala is the native language of the Sinhalese people, who make up the largest ethnic group in Sri Lanka and also spoken as a second language by other ethnic groups in Sri Lanka."
+              },
+              {
+                "name": "Bangladesh",
+                "status": "major language of Sylhet Division of Bangladesh"
+              },
+              {
+                "name": "India",
+                "status": "significant minority in the state of Assam, especially in Barak Valley"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "significant minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "minority"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "minority; mainly in Chittagong Division, related to Chakma, Chittagonian, Pali, Prakrit, Sanskrit Rohingya and Bengali language"
+              },
+              {
+                "name": "India",
+                "status": "minority; mainly in Indian states of Assam, Tripura and Mizoram"
+              },
+              {
+                "name": "Burma",
+                "status": "minority; mainly in Rakhine State, and few of them in Chin State and Yangon Division of Burma"
+              },
+              {
+                "name": "Bahrain",
+                "status": "minority"
+              },
+              {
+                "name": "Bangladesh",
+                "status": "significant minority"
+              },
+              {
+                "name": "Fiji",
+                "status": "co-official as Hindustani with English and Fijian"
+              },
+              {
+                "name": "India",
+                "status": "co-official with 21 others"
+              },
+              {
+                "name": "Nepal",
+                "status": "minority"
+              },
+              {
+                "name": "Mauritius",
+                "status": "minority"
+              },
+              {
+                "name": "Oman",
+                "status": "minority"
+              },
+              {
+                "name": "Pakistan",
+                "status": "co-official with English"
+              },
+              {
+                "name": "Qatar",
+                "status": "minority"
+              },
+              {
+                "name": "Saudi Arabia",
+                "status": "minority"
+              },
+              {
+                "name": "South Africa",
+                "status": "minority"
+              },
+              {
+                "name": "United Arab Emirates",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              }
+            ]
+          }
+        ],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "ItalicRomance",
+        "language": [
+          {
+            "type": "Language",
+            "name": "French",
+            "country": []
+          },
+          {
+            "type": "Language",
+            "name": "Italian",
+            "country": [
+              {
+                "name": "Albania",
+                "status": "unofficial, but widely spoken; some 70% of the population"
+              },
+              {
+                "name": "Belgium",
+                "status": "minority"
+              },
+              {
+                "name": "Croatia",
+                "status": "official status in Istria"
+              },
+              {
+                "name": "FranceCorsica",
+                "status": "minority language in  Corsica"
+              },
+              {
+                "name": "Germany",
+                "status": "minority"
+              },
+              {
+                "name": "Greece",
+                "status": "minority"
+              },
+              {
+                "name": "Italy",
+                "status": "official"
+              },
+              {
+                "name": "Luxembourg",
+                "status": "minority"
+              },
+              {
+                "name": "Malta",
+                "status": "unofficial, but widely spoken; some 66% of the population"
+              },
+              {
+                "name": "Monaco",
+                "status": "unofficial, but widely spoken"
+              },
+              {
+                "name": "San Marino",
+                "status": "official"
+              },
+              {
+                "name": "Slovenia",
+                "status": "co-official in Koper, Izola and Piran"
+              },
+              {
+                "name": "Switzerland",
+                "status": "co-official with French, German, and Romansh"
+              },
+              {
+                "name": "Vatican City",
+                "status": "official"
+              },
+              {
+                "name": "Eritrea",
+                "status": "widely spoken"
+              },
+              {
+                "name": "Libya",
+                "status": "minority"
+              },
+              {
+                "name": "Somalia",
+                "status": "minority"
+              },
+              {
+                "name": "Argentina",
+                "status": "minority"
+              },
+              {
+                "name": "Brazil",
+                "status": "minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "Chile",
+                "status": "minority"
+              },
+              {
+                "name": "Mexico",
+                "status": "minority"
+              },
+              {
+                "name": "Peru",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "Uruguay",
+                "status": "minority"
+              },
+              {
+                "name": "Venezuela",
+                "status": "minority"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              }
+            ]
+          },
+          {
+            "type": "Language",
+            "name": "Portuguese",
+            "country": []
+          },
+          {
+            "type": "Language",
+            "name": "Spanish",
+            "country": [
+              {
+                "name": "Andorra",
+                "status": "official"
+              },
+              {
+                "name": "France",
+                "status": "in Northern Catalonia"
+              },
+              {
+                "name": "Italy",
+                "status": "a significant minority in Alghero"
+              },
+              {
+                "name": "SpainCataloniaBalearic IslandsValencian Community",
+                "status": "co-official with Spanish in  Catalonia, the  Balearic Islands, and  Valencian Community. In El Carche (Murcia) and La Franja (Aragon) it is not official."
+              },
+              {
+                "name": "FranceCorsica",
+                "status": "regional language in  Corsica"
+              },
+              {
+                "name": "ItalySardinia",
+                "status": "minority in  Sardinia"
+              },
+              {
+                "name": "Galicia",
+                "status": "co-official with Spanish"
+              },
+              {
+                "name": "Argentina",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Brazil",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Cuba",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "France",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Germany",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Switzerland",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Uruguay",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Venezuela",
+                "status": "minority, from immigration"
+              },
+              {
+                "name": "Jersey",
+                "status": "unofficial"
+              },
+              {
+                "name": "Sark",
+                "status": "unofficial"
+              },
+              {
+                "name": "Vatican City",
+                "status": "official, but not spoken"
+              },
+              {
+                "name": "Portugal",
+                "status": "co-official with Portuguese in the municipalities of Miranda do Douro, Mogadouro and Vimioso"
+              },
+              {
+                "name": "France",
+                "status": "minority"
+              },
+              {
+                "name": "Italy",
+                "status": "recognised minority language"
+              },
+              {
+                "name": "SpainCatalonia",
+                "status": "co-official with Catalan and Spanish in  Catalonia"
+              },
+              {
+                "name": "Bulgaria",
+                "status": "minority"
+              },
+              {
+                "name": "Italy",
+                "status": "minority"
+              },
+              {
+                "name": "Moldova",
+                "status": "official"
+              },
+              {
+                "name": "Romania",
+                "status": "official"
+              },
+              {
+                "name": "Spain",
+                "status": "minority"
+              },
+              {
+                "name": "Serbia",
+                "status": "co-official in province of Vojvodina with 5 other languages"
+              },
+              {
+                "name": "Switzerland",
+                "status": "co-official with French, Italian, and German"
+              }
+            ]
+          }
+        ],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "Slavic",
+        "language": [],
+        "country": []
+      }
+    ],
+    "country": []
+  },
+  {
+    "type": "Language Family",
+    "name": "Mongolic languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "Mongolia",
+        "status": "official"
+      },
+      {
+        "name": "China",
+        "status": "regional, co-official with Chinese in Inner Mongolia Autonomous Region"
+      },
+      {
+        "name": "RussiaKalmykia",
+        "status": "official in  Kalmykia[14]"
+      },
+      {
+        "name": "China",
+        "status": "minority, spoken by Daur people in Morin Dawa Daur Autonomous Banner of Inner Mongolia"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Turkic languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "Azerbaijan",
+        "status": "official"
+      },
+      {
+        "name": "Iran",
+        "status": "co-official, as well as in Iranian Azerbaijan"
+      },
+      {
+        "name": "Iraq",
+        "status": "minority"
+      },
+      {
+        "name": "Georgia",
+        "status": "regional"
+      },
+      {
+        "name": "Russia",
+        "status": "co-official in Dagestan"
+      },
+      {
+        "name": "Syria",
+        "status": "minority"
+      },
+      {
+        "name": "Turkey",
+        "status": "regional"
+      },
+      {
+        "name": "Ukraine",
+        "status": "minority"
+      },
+      {
+        "name": "Belarus",
+        "status": "minority"
+      },
+      {
+        "name": "China",
+        "status": "regional, co-official with Chinese in Xinjiang Uyghur Autonomous Region"
+      },
+      {
+        "name": "Kazakhstan",
+        "status": "minority"
+      },
+      {
+        "name": "Afghanistan",
+        "status": "minority"
+      },
+      {
+        "name": "China",
+        "status": "minority"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "minority"
+      },
+      {
+        "name": "Tajikistan",
+        "status": "minority"
+      },
+      {
+        "name": "Turkmenistan",
+        "status": "minority"
+      },
+      {
+        "name": "Uzbekistan",
+        "status": "official"
+      },
+      {
+        "name": "Afghanistan",
+        "status": "minority"
+      },
+      {
+        "name": "China",
+        "status": "regional, co-official with Chinese in Ili Kazakh Autonomous Prefecture in Xinjiang Uyghur Autonomous Region"
+      },
+      {
+        "name": "Iran",
+        "status": "minority"
+      },
+      {
+        "name": "Kazakhstan",
+        "status": "official"
+      },
+      {
+        "name": "Mongolia",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "minority"
+      },
+      {
+        "name": "Tajikistan",
+        "status": "minority"
+      },
+      {
+        "name": "Turkey",
+        "status": "minority"
+      },
+      {
+        "name": "Turkmenistan",
+        "status": "minority"
+      },
+      {
+        "name": "Ukraine",
+        "status": "minority"
+      },
+      {
+        "name": "Uzbekistan",
+        "status": "minority"
+      },
+      {
+        "name": "Afghanistan",
+        "status": "minority"
+      },
+      {
+        "name": "China",
+        "status": "minority"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "status": "official"
+      },
+      {
+        "name": "Pakistan",
+        "status": "minority"
+      },
+      {
+        "name": "Tajikistan",
+        "status": "minority"
+      },
+      {
+        "name": "Turkey",
+        "status": "official"
+      },
+      {
+        "name": "Cyprus",
+        "status": "co-official with Greek"
+      },
+      {
+        "name": "Iran",
+        "status": "recognized regional lang."
+      },
+      {
+        "name": "Iraq",
+        "status": "recognized regional lang."
+      },
+      {
+        "name": "Kosovo",
+        "status": "recognized regional lang."
+      },
+      {
+        "name": "Macedonia",
+        "status": "recognized regional lang."
+      },
+      {
+        "name": "Romania",
+        "status": "recognized minority lang."
+      },
+      {
+        "name": "Bulgaria",
+        "status": "minority"
+      },
+      {
+        "name": "Greece",
+        "status": "minority"
+      },
+      {
+        "name": "Germany",
+        "status": "significant minority"
+      },
+      {
+        "name": "Netherlands",
+        "status": "significant minority"
+      },
+      {
+        "name": "Turkmenistan",
+        "status": "official"
+      },
+      {
+        "name": "Iraq",
+        "status": "majority in northern Iraq"
+      },
+      {
+        "name": "Iran",
+        "status": "minority"
+      },
+      {
+        "name": "Afghanistan",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "spoken in Stavropol Krai"
+      },
+      {
+        "name": "Turkey",
+        "status": "minority"
+      },
+      {
+        "name": "Găgăuzia",
+        "status": "official language of the autonomous region of Gagauzia, Moldova"
+      },
+      {
+        "name": "Moldova",
+        "status": "recognized minority language"
+      },
+      {
+        "name": "Ukraine",
+        "status": "recognized minority language"
+      },
+      {
+        "name": "Tatarstan",
+        "status": "official language of the Republic of Tatarstan"
+      },
+      {
+        "name": "Russia",
+        "status": "spoken in Russia and in former Soviet Union"
+      },
+      {
+        "name": "Turkey",
+        "status": "minority"
+      },
+      {
+        "name": "CrimeaUkraine",
+        "status": "spoken and protected but not officially recognized language of Ukraine"
+      },
+      {
+        "name": "Romania",
+        "status": "minority language in Dobroudja"
+      },
+      {
+        "name": "Turkey",
+        "status": "minority"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Afro-Asiatic languages",
+    "branch": [
+      {
+        "type": "Language Branch",
+        "name": "Semitic languages",
+        "language": [],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "Arabic",
+        "language": [],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "Other Semitic Lang.",
+        "language": [],
+        "country": [
+          {
+            "name": "Ethiopia",
+            "status": "official"
+          },
+          {
+            "name": "Israel",
+            "status": "official"
+          },
+          {
+            "name": "Malta",
+            "status": "official"
+          },
+          {
+            "name": "Australia",
+            "status": "minority"
+          },
+          {
+            "name": "Canada",
+            "status": "minority"
+          },
+          {
+            "name": "Italy",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Eritrea",
+            "status": "de facto"
+          }
+        ]
+      }
+    ],
+    "country": []
+  },
+  {
+    "type": "Language Family",
+    "name": "Dravidian languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "Pakistan",
+        "status": "minority, spoken in Balochistan"
+      },
+      {
+        "name": "Iran",
+        "status": "minority"
+      },
+      {
+        "name": "Afghanistan",
+        "status": "minority"
+      },
+      {
+        "name": "Turkmenistan",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "official in Karnataka, minority in Andhra Pradesh, Goa,\nKerala Maharashtra, Tamil Nadu, Telangana\n"
+      },
+      {
+        "name": "Singapore",
+        "status": "minority"
+      },
+      {
+        "name": "United Kingdom",
+        "status": "minority"
+      },
+      {
+        "name": "United Arab Emirates",
+        "status": "minority"
+      },
+      {
+        "name": "Bahrain",
+        "status": "minority"
+      },
+      {
+        "name": "Qatar",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority, endangered Dravidian language"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "Bangladesh",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority, endangered Dravidian language"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "Bangladesh",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority, endangered Dravidian language"
+      },
+      {
+        "name": "India",
+        "status": "official Andhra Pradesh Telangana Yanam"
+      },
+      {
+        "name": "Singapore",
+        "status": "minority"
+      },
+      {
+        "name": "Mauritius",
+        "status": "minority"
+      },
+      {
+        "name": "Ireland",
+        "status": "minority"
+      },
+      {
+        "name": "France",
+        "status": "minority"
+      },
+      {
+        "name": "Brazil",
+        "status": "minority"
+      },
+      {
+        "name": "Argentina",
+        "status": "minority"
+      },
+      {
+        "name": "Spain",
+        "status": "minority"
+      },
+      {
+        "name": "Portugal",
+        "status": "minority"
+      },
+      {
+        "name": "United States",
+        "status": "significant minority"
+      },
+      {
+        "name": "Poland",
+        "status": "minority"
+      },
+      {
+        "name": "Mexico",
+        "status": "minority"
+      },
+      {
+        "name": "Canada",
+        "status": "minority"
+      },
+      {
+        "name": "Australia",
+        "status": "minority"
+      },
+      {
+        "name": "Malaysia",
+        "status": "significant minority"
+      },
+      {
+        "name": "Sri Lanka",
+        "status": "minority"
+      },
+      {
+        "name": "Burma",
+        "status": "minority"
+      },
+      {
+        "name": "United Arab Emirates",
+        "status": "minority"
+      },
+      {
+        "name": "Saudi Arabia",
+        "status": "minority"
+      },
+      {
+        "name": "Indonesia",
+        "status": "minority"
+      },
+      {
+        "name": "Germany",
+        "status": "minority"
+      },
+      {
+        "name": "Denmark",
+        "status": "minority"
+      },
+      {
+        "name": "Sweden",
+        "status": "minority"
+      },
+      {
+        "name": "New Zealand",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "official in Tamil Nadu and Puducherry"
+      },
+      {
+        "name": "Malaysia",
+        "status": "co-official with Tamil, Mandarin, and Malay"
+      },
+      {
+        "name": "Singapore",
+        "status": "co-official with Tamil, Mandarin, and Malay"
+      },
+      {
+        "name": "Sri Lanka",
+        "status": "co-official with Sinhalese"
+      },
+      {
+        "name": "Canada",
+        "status": "significant minority"
+      },
+      {
+        "name": "Mauritius",
+        "status": "significant minority"
+      },
+      {
+        "name": "South Africa",
+        "status": "significant minority"
+      },
+      {
+        "name": "United Kingdom",
+        "status": "significant minority"
+      },
+      {
+        "name": "United States",
+        "status": "significant minority"
+      },
+      {
+        "name": "Australia",
+        "status": "minority"
+      },
+      {
+        "name": "Bahrain",
+        "status": "minority"
+      },
+      {
+        "name": "Burma",
+        "status": "minority"
+      },
+      {
+        "name": "Denmark",
+        "status": "minority"
+      },
+      {
+        "name": "Germany",
+        "status": "minority"
+      },
+      {
+        "name": "Ireland",
+        "status": "minority"
+      },
+      {
+        "name": "New Zealand",
+        "status": "minority"
+      },
+      {
+        "name": "Sweden",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "official at state of Kerala and Union Territory of Lakshwadeep.\nco-official in Puducherry (Mahe)\n"
+      },
+      {
+        "name": "United Arab Emirates",
+        "status": "significant minority"
+      },
+      {
+        "name": "United States",
+        "status": "significant minority"
+      },
+      {
+        "name": "Saudi Arabia",
+        "status": "significant minority"
+      },
+      {
+        "name": "Kuwait",
+        "status": "significant minority"
+      },
+      {
+        "name": "Oman",
+        "status": "significant minority"
+      },
+      {
+        "name": "United Kingdom",
+        "status": "significant minority"
+      },
+      {
+        "name": "Qatar",
+        "status": "significant minority"
+      },
+      {
+        "name": "Bahrain",
+        "status": "significant minority"
+      },
+      {
+        "name": "Israel",
+        "status": "minority"
+      },
+      {
+        "name": "Australia",
+        "status": "minority"
+      },
+      {
+        "name": "Canada",
+        "status": "minority"
+      },
+      {
+        "name": "Malaysia",
+        "status": "significant minority"
+      },
+      {
+        "name": "Singapore",
+        "status": "significant minority"
+      },
+      {
+        "name": "Pakistan",
+        "status": "minority"
+      },
+      {
+        "name": "Germany",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "minority"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Japonic languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "France",
+        "status": "minority"
+      },
+      {
+        "name": "Japan",
+        "status": "national"
+      },
+      {
+        "name": "Lithuania",
+        "status": "minority"
+      },
+      {
+        "name": "Philippines",
+        "status": "minority"
+      },
+      {
+        "name": "Peru",
+        "status": "minority"
+      },
+      {
+        "name": "United States",
+        "status": "minority"
+      },
+      {
+        "name": "Palau",
+        "status": "Official in Angaur"
+      },
+      {
+        "name": "Brazil",
+        "status": "minority"
+      },
+      {
+        "name": "Japan",
+        "status": "minority"
+      },
+      {
+        "name": "Brazil",
+        "status": "minority"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Language isolate",
+    "branch": [],
+    "country": [
+      {
+        "name": "France",
+        "status": "majority in Northern Basque Country"
+      },
+      {
+        "name": "SpainBasque CountryNavarre",
+        "status": "co-official with Spanish in  Basque Country and parts of  Navarre"
+      },
+      {
+        "name": "Venezuela",
+        "status": "minority, from immigration. See Basque Venezuelan"
+      },
+      {
+        "name": "Brazil",
+        "status": "minority"
+      },
+      {
+        "name": "China",
+        "status": "minority, co-official with Chinese in Yanbian Korean Autonomous Prefecture in Jilin Province"
+      },
+      {
+        "name": "Japan",
+        "status": "minority"
+      },
+      {
+        "name": "North Korea",
+        "status": "official"
+      },
+      {
+        "name": "South Korea",
+        "status": "official"
+      },
+      {
+        "name": "United States",
+        "status": "not official – minority[6]"
+      },
+      {
+        "name": "India",
+        "status": "minority, endangered language"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "South Caucasian languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "Georgia",
+        "status": "official"
+      },
+      {
+        "name": "Turkey",
+        "status": "minority"
+      },
+      {
+        "name": "Iran",
+        "status": "minority"
+      },
+      {
+        "name": "Azerbaijan",
+        "status": "minority"
+      },
+      {
+        "name": "Georgia",
+        "status": "significant language"
+      },
+      {
+        "name": "Abkhazia",
+        "status": "significant language"
+      },
+      {
+        "name": "Georgia",
+        "status": "minority"
+      },
+      {
+        "name": "Turkey",
+        "status": "significant language"
+      },
+      {
+        "name": "Georgia",
+        "status": "minority"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Sino-Tibetan languages",
+    "branch": [
+      {
+        "type": "Language Branch",
+        "name": "Other Sino-Tibetan",
+        "language": [],
+        "country": [
+          {
+            "name": "Burma",
+            "status": "official"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority"
+          },
+          {
+            "name": "Singapore",
+            "status": "minority, 50,000 p."
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Bhutan",
+            "status": "official"
+          },
+          {
+            "name": "China",
+            "status": "minority, official in Tibet Autonomous Region"
+          },
+          {
+            "name": "Nepal",
+            "status": "minority, in Upper Mustang"
+          },
+          {
+            "name": "India",
+            "status": "minority"
+          },
+          {
+            "name": "China",
+            "status": "minority, in Yunnan province."
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority, called \"Hà Nhì\""
+          },
+          {
+            "name": "Laos",
+            "status": "minority,"
+          },
+          {
+            "name": "Burma",
+            "status": "minority, 7 mi. p., Kayin state"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority, 1 mi. p.,"
+          },
+          {
+            "name": "United States",
+            "status": "minority, 70,000 p."
+          },
+          {
+            "name": "Australia",
+            "status": "minority, 11,000 p."
+          },
+          {
+            "name": "China",
+            "status": "minority, 720,000 peoples, in Yunnan province."
+          },
+          {
+            "name": "Myanmar",
+            "status": "minority, 150,000 peoples"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority, 100,000 peoples"
+          },
+          {
+            "name": "Laos",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority, called \"La Hủ\""
+          },
+          {
+            "name": "India",
+            "status": "recognized minority, spoken by 1.25 mi. p. in Manipur and others"
+          },
+          {
+            "name": "China",
+            "status": "minority, spoken by 7.76 mi. of Yi people in South China[19]"
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority, called \"Lô Lô\"."
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Chinese",
+        "language": [],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "Yue Chinese",
+        "language": [
+          {
+            "type": "Language",
+            "name": "Cantonese",
+            "country": [
+              {
+                "name": "Angola",
+                "status": "minority"
+              },
+              {
+                "name": "Cape Verde",
+                "status": "minority"
+              },
+              {
+                "name": "Mauritius",
+                "status": "minority"
+              },
+              {
+                "name": "South Africa",
+                "status": "minority"
+              },
+              {
+                "name": "Brunei",
+                "status": "minority"
+              },
+              {
+                "name": "Cambodia",
+                "status": "minority"
+              },
+              {
+                "name": "China",
+                "status": "regional"
+              },
+              {
+                "name": "Hong Kong",
+                "status": "co-official with English"
+              },
+              {
+                "name": "Indonesia",
+                "status": "minority"
+              },
+              {
+                "name": "Japan",
+                "status": "minority"
+              },
+              {
+                "name": "North Korea",
+                "status": "minority"
+              },
+              {
+                "name": "South Korea",
+                "status": "minority"
+              },
+              {
+                "name": "Laos",
+                "status": "minority"
+              },
+              {
+                "name": "Macau",
+                "status": "co-official with Portuguese"
+              },
+              {
+                "name": "Malaysia",
+                "status": "minority"
+              },
+              {
+                "name": "Burma",
+                "status": "minority"
+              },
+              {
+                "name": "Philippines",
+                "status": "minority"
+              },
+              {
+                "name": "Singapore",
+                "status": "minority"
+              },
+              {
+                "name": "Thailand",
+                "status": "minority"
+              },
+              {
+                "name": "Vietnam",
+                "status": "minority"
+              },
+              {
+                "name": "Bulgaria",
+                "status": "minority"
+              },
+              {
+                "name": "France",
+                "status": "minority"
+              },
+              {
+                "name": "Germany",
+                "status": "minority"
+              },
+              {
+                "name": "Ireland",
+                "status": "minority"
+              },
+              {
+                "name": "Italy",
+                "status": "minority"
+              },
+              {
+                "name": "Netherlands",
+                "status": "minority"
+              },
+              {
+                "name": "Romania",
+                "status": "minority"
+              },
+              {
+                "name": "Russia",
+                "status": "minority"
+              },
+              {
+                "name": "Serbia",
+                "status": "minority"
+              },
+              {
+                "name": "Spain",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "Cuba",
+                "status": "minority"
+              },
+              {
+                "name": "Dominican Republic",
+                "status": "minority"
+              },
+              {
+                "name": "Jamaica",
+                "status": "minority"
+              },
+              {
+                "name": "Mexico",
+                "status": "minority"
+              },
+              {
+                "name": "Nicaragua",
+                "status": "minority"
+              },
+              {
+                "name": "Panama",
+                "status": "minority"
+              },
+              {
+                "name": "Trinidad and Tobago",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              },
+              {
+                "name": "Fiji",
+                "status": "minority"
+              },
+              {
+                "name": "New Zealand",
+                "status": "minority"
+              },
+              {
+                "name": "Samoa",
+                "status": "minority"
+              },
+              {
+                "name": "Tonga",
+                "status": "minority"
+              },
+              {
+                "name": "Argentina",
+                "status": "minority"
+              },
+              {
+                "name": "Brazil",
+                "status": "minority"
+              },
+              {
+                "name": "Chile",
+                "status": "regional"
+              },
+              {
+                "name": "Guyana",
+                "status": "minority"
+              },
+              {
+                "name": "Peru",
+                "status": "minority"
+              },
+              {
+                "name": "Suriname",
+                "status": "minority"
+              },
+              {
+                "name": "Venezuela",
+                "status": "minority"
+              }
+            ]
+          }
+        ],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "Hakka",
+        "language": [],
+        "country": [
+          {
+            "name": "Angola",
+            "status": "minority"
+          },
+          {
+            "name": "Cape Verde",
+            "status": "minority"
+          },
+          {
+            "name": "Mauritius",
+            "status": "minority"
+          },
+          {
+            "name": "South Africa",
+            "status": "minority"
+          },
+          {
+            "name": "Brunei",
+            "status": "minority"
+          },
+          {
+            "name": "Cambodia",
+            "status": "minority"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "Hong Kong",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Japan",
+            "status": "minority"
+          },
+          {
+            "name": "North Korea",
+            "status": "minority"
+          },
+          {
+            "name": "South Korea",
+            "status": "minority"
+          },
+          {
+            "name": "Laos",
+            "status": "minority"
+          },
+          {
+            "name": "Macau",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Burma",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Singapore",
+            "status": "minority"
+          },
+          {
+            "name": "Taiwan",
+            "status": "minority"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority"
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority"
+          },
+          {
+            "name": "Bulgaria",
+            "status": "minority"
+          },
+          {
+            "name": "France",
+            "status": "minority"
+          },
+          {
+            "name": "Germany",
+            "status": "minority"
+          },
+          {
+            "name": "Ireland",
+            "status": "minority"
+          },
+          {
+            "name": "Italy",
+            "status": "minority"
+          },
+          {
+            "name": "Netherlands",
+            "status": "minority"
+          },
+          {
+            "name": "Romania",
+            "status": "minority"
+          },
+          {
+            "name": "Russia",
+            "status": "minority"
+          },
+          {
+            "name": "Serbia",
+            "status": "minority"
+          },
+          {
+            "name": "Spain",
+            "status": "minority"
+          },
+          {
+            "name": "United Kingdom",
+            "status": "minority"
+          },
+          {
+            "name": "Canada",
+            "status": "minority"
+          },
+          {
+            "name": "Cuba",
+            "status": "minority"
+          },
+          {
+            "name": "Dominican Republic",
+            "status": "minority"
+          },
+          {
+            "name": "Jamaica",
+            "status": "minority"
+          },
+          {
+            "name": "Mexico",
+            "status": "minority"
+          },
+          {
+            "name": "Nicaragua",
+            "status": "minority"
+          },
+          {
+            "name": "Panama",
+            "status": "minority"
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Australia",
+            "status": "minority"
+          },
+          {
+            "name": "Fiji",
+            "status": "minority"
+          },
+          {
+            "name": "New Zealand",
+            "status": "minority"
+          },
+          {
+            "name": "Samoa",
+            "status": "minority"
+          },
+          {
+            "name": "Tonga",
+            "status": "minority"
+          },
+          {
+            "name": "Argentina",
+            "status": "minority"
+          },
+          {
+            "name": "Brazil",
+            "status": "minority"
+          },
+          {
+            "name": "Chile",
+            "status": "regional"
+          },
+          {
+            "name": "Guyana",
+            "status": "minority"
+          },
+          {
+            "name": "Peru",
+            "status": "minority"
+          },
+          {
+            "name": "Suriname",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Mandarin",
+        "language": [
+          {
+            "type": "Language",
+            "name": "Standard Chinese",
+            "country": [
+              {
+                "name": "Angola",
+                "status": "minority"
+              },
+              {
+                "name": "Cape Verde",
+                "status": "minority"
+              },
+              {
+                "name": "Mauritius",
+                "status": "minority"
+              },
+              {
+                "name": "South Africa",
+                "status": "minority"
+              },
+              {
+                "name": "Brunei",
+                "status": "minority"
+              },
+              {
+                "name": "Cambodia",
+                "status": "minority"
+              },
+              {
+                "name": "China",
+                "status": "national"
+              },
+              {
+                "name": "Hong Kong",
+                "status": "co-official with English and Cantonese"
+              },
+              {
+                "name": "Indonesia",
+                "status": "minority"
+              },
+              {
+                "name": "Japan",
+                "status": "minority"
+              },
+              {
+                "name": "North Korea",
+                "status": "minority"
+              },
+              {
+                "name": "South Korea",
+                "status": "minority"
+              },
+              {
+                "name": "Laos",
+                "status": "minority"
+              },
+              {
+                "name": "Macau",
+                "status": "co-official with Portuguese and Cantonese"
+              },
+              {
+                "name": "Malaysia",
+                "status": "minority"
+              },
+              {
+                "name": "Burma",
+                "status": "minority"
+              },
+              {
+                "name": "Philippines",
+                "status": "minority"
+              },
+              {
+                "name": "Singapore",
+                "status": "minority"
+              },
+              {
+                "name": "Taiwan",
+                "status": "official"
+              },
+              {
+                "name": "Thailand",
+                "status": "minority"
+              },
+              {
+                "name": "Vietnam",
+                "status": "minority"
+              },
+              {
+                "name": "Bulgaria",
+                "status": "minority"
+              },
+              {
+                "name": "France",
+                "status": "minority"
+              },
+              {
+                "name": "Germany",
+                "status": "minority"
+              },
+              {
+                "name": "Ireland",
+                "status": "minority"
+              },
+              {
+                "name": "Italy",
+                "status": "minority"
+              },
+              {
+                "name": "Netherlands",
+                "status": "minority"
+              },
+              {
+                "name": "Romania",
+                "status": "minority"
+              },
+              {
+                "name": "Russia",
+                "status": "minority"
+              },
+              {
+                "name": "Serbia",
+                "status": "minority"
+              },
+              {
+                "name": "Spain",
+                "status": "minority"
+              },
+              {
+                "name": "United Kingdom",
+                "status": "minority"
+              },
+              {
+                "name": "Canada",
+                "status": "minority"
+              },
+              {
+                "name": "Cuba",
+                "status": "minority"
+              },
+              {
+                "name": "Dominican Republic",
+                "status": "minority"
+              },
+              {
+                "name": "Jamaica",
+                "status": "minority"
+              },
+              {
+                "name": "Mexico",
+                "status": "minority"
+              },
+              {
+                "name": "Nicaragua",
+                "status": "minority"
+              },
+              {
+                "name": "Panama",
+                "status": "minority"
+              },
+              {
+                "name": "Trinidad and Tobago",
+                "status": "minority"
+              },
+              {
+                "name": "United States",
+                "status": "minority[6]"
+              },
+              {
+                "name": "Australia",
+                "status": "minority"
+              },
+              {
+                "name": "Fiji",
+                "status": "minority"
+              },
+              {
+                "name": "New Zealand",
+                "status": "minority"
+              },
+              {
+                "name": "Samoa",
+                "status": "minority"
+              },
+              {
+                "name": "Tonga",
+                "status": "minority"
+              },
+              {
+                "name": "Argentina",
+                "status": "minority"
+              },
+              {
+                "name": "Brazil",
+                "status": "minority"
+              },
+              {
+                "name": "Chile",
+                "status": "regional"
+              },
+              {
+                "name": "Guyana",
+                "status": "minority"
+              },
+              {
+                "name": "Peru",
+                "status": "minority"
+              },
+              {
+                "name": "Suriname",
+                "status": "minority"
+              },
+              {
+                "name": "Venezuela",
+                "status": "minority"
+              }
+            ]
+          }
+        ],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "MinMin Nan",
+        "language": [],
+        "country": [
+          {
+            "name": "Angola",
+            "status": "minority"
+          },
+          {
+            "name": "Cape Verde",
+            "status": "minority"
+          },
+          {
+            "name": "Mauritius",
+            "status": "minority"
+          },
+          {
+            "name": "South Africa",
+            "status": "minority"
+          },
+          {
+            "name": "Brunei",
+            "status": "minority"
+          },
+          {
+            "name": "Cambodia",
+            "status": "minority"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "Hong Kong",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Japan",
+            "status": "minority"
+          },
+          {
+            "name": "North Korea",
+            "status": "minority"
+          },
+          {
+            "name": "South Korea",
+            "status": "minority"
+          },
+          {
+            "name": "Laos",
+            "status": "minority"
+          },
+          {
+            "name": "Macau",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority, lingua franca in Penang"
+          },
+          {
+            "name": "Burma",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Singapore",
+            "status": "minority"
+          },
+          {
+            "name": "Taiwan",
+            "status": "widely spoken, lingua franca alongside Hakka, see Taiwanese Hokkien, statutory language for public transportation announcements"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority"
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority"
+          },
+          {
+            "name": "Bulgaria",
+            "status": "minority"
+          },
+          {
+            "name": "France",
+            "status": "minority"
+          },
+          {
+            "name": "Germany",
+            "status": "minority"
+          },
+          {
+            "name": "Ireland",
+            "status": "minority"
+          },
+          {
+            "name": "Italy",
+            "status": "minority"
+          },
+          {
+            "name": "Netherlands",
+            "status": "minority"
+          },
+          {
+            "name": "Romania",
+            "status": "minority"
+          },
+          {
+            "name": "Russia",
+            "status": "minority"
+          },
+          {
+            "name": "Serbia",
+            "status": "minority"
+          },
+          {
+            "name": "Spain",
+            "status": "minority"
+          },
+          {
+            "name": "United Kingdom",
+            "status": "minority"
+          },
+          {
+            "name": "Canada",
+            "status": "minority"
+          },
+          {
+            "name": "Cuba",
+            "status": "minority"
+          },
+          {
+            "name": "Dominican Republic",
+            "status": "minority"
+          },
+          {
+            "name": "Jamaica",
+            "status": "minority"
+          },
+          {
+            "name": "Mexico",
+            "status": "minority"
+          },
+          {
+            "name": "Nicaragua",
+            "status": "minority"
+          },
+          {
+            "name": "Panama",
+            "status": "minority"
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Australia",
+            "status": "minority"
+          },
+          {
+            "name": "Fiji",
+            "status": "minority"
+          },
+          {
+            "name": "New Zealand",
+            "status": "minority"
+          },
+          {
+            "name": "Samoa",
+            "status": "minority"
+          },
+          {
+            "name": "Tonga",
+            "status": "minority"
+          },
+          {
+            "name": "Argentina",
+            "status": "minority"
+          },
+          {
+            "name": "Brazil",
+            "status": "minority"
+          },
+          {
+            "name": "Chile",
+            "status": "regional"
+          },
+          {
+            "name": "Guyana",
+            "status": "minority"
+          },
+          {
+            "name": "Peru",
+            "status": "minority"
+          },
+          {
+            "name": "Suriname",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Other Sinitic Lang.",
+        "language": [],
+        "country": [
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          },
+          {
+            "name": "Hong Kong",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Canada",
+            "status": "minority"
+          },
+          {
+            "name": "China",
+            "status": "regional"
+          }
+        ]
+      }
+    ],
+    "country": []
+  },
+  {
+    "type": "Language Family",
+    "name": "Malayo-Polynesian languages",
+    "branch": [
+      {
+        "type": "Language Branch",
+        "name": "Bornean",
+        "language": [],
+        "country": [
+          {
+            "name": "Brunei",
+            "status": "regional"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "regional"
+          },
+          {
+            "name": "Brunei",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Comoros",
+            "status": "minority"
+          },
+          {
+            "name": "Madagascar",
+            "status": "official"
+          },
+          {
+            "name": "Mayotte",
+            "status": "minority"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Filipino",
+        "language": [],
+        "country": [
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Saudi Arabia",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Australia",
+            "status": "minority"
+          },
+          {
+            "name": "Brunei",
+            "status": "minority"
+          },
+          {
+            "name": "Canada",
+            "status": "minority"
+          },
+          {
+            "name": "Hong Kong",
+            "status": "minority"
+          },
+          {
+            "name": "Israel",
+            "status": "minority"
+          },
+          {
+            "name": "Italy",
+            "status": "minority"
+          },
+          {
+            "name": "Japan",
+            "status": "minority"
+          },
+          {
+            "name": "Kuwait",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "New Zealand",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional and co-official with English"
+          },
+          {
+            "name": "Qatar",
+            "status": "minority"
+          },
+          {
+            "name": "Saudi Arabia",
+            "status": "significant minority"
+          },
+          {
+            "name": "Singapore",
+            "status": "minority"
+          },
+          {
+            "name": "South Korea",
+            "status": "minority"
+          },
+          {
+            "name": "Spain",
+            "status": "minority"
+          },
+          {
+            "name": "Taiwan",
+            "status": "minority"
+          },
+          {
+            "name": "United Arab Emirates",
+            "status": "minority"
+          },
+          {
+            "name": "United Kingdom",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "significant minority[6]"
+          },
+          {
+            "name": "Taiwan",
+            "status": "minority"
+          },
+          {
+            "name": "Brunei",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          },
+          {
+            "name": "Philippines",
+            "status": "regional"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Oceanic",
+        "language": [],
+        "country": []
+      },
+      {
+        "type": "Language Branch",
+        "name": "East Fijian",
+        "language": [],
+        "country": [
+          {
+            "name": "Fiji",
+            "status": "official"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Micronesian",
+        "language": [],
+        "country": [
+          {
+            "name": "Northern Mariana Islands",
+            "status": "official"
+          },
+          {
+            "name": "Guam",
+            "status": "minority"
+          },
+          {
+            "name": "FS. Micronesia",
+            "status": "regional"
+          },
+          {
+            "name": "Fiji",
+            "status": "minority"
+          },
+          {
+            "name": "Kiribati",
+            "status": "official"
+          },
+          {
+            "name": "Nauru",
+            "status": "minority"
+          },
+          {
+            "name": "Solomon Islands",
+            "status": "minority"
+          },
+          {
+            "name": "Tuvalu",
+            "status": "minority"
+          },
+          {
+            "name": "Vanuatu",
+            "status": "minority"
+          },
+          {
+            "name": "FS. Micronesia",
+            "status": "regional"
+          },
+          {
+            "name": "Marshall Islands",
+            "status": "official"
+          },
+          {
+            "name": "Nauru",
+            "status": "official"
+          },
+          {
+            "name": "FS. Micronesia",
+            "status": "regional"
+          },
+          {
+            "name": "Palau",
+            "status": "regional"
+          },
+          {
+            "name": "Palau",
+            "status": "regional"
+          },
+          {
+            "name": "FS. Micronesia",
+            "status": "regional"
+          },
+          {
+            "name": "FS. Micronesia",
+            "status": "regional"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Polynesian",
+        "language": [],
+        "country": [
+          {
+            "name": "Cook Islands",
+            "status": "official"
+          },
+          {
+            "name": "Wallis and Futuna",
+            "status": "official"
+          },
+          {
+            "name": "Hawaii",
+            "status": "official"
+          },
+          {
+            "name": "New Zealand",
+            "status": "co-official with English and New Zealand Sign Language"
+          },
+          {
+            "name": "Cook Islands",
+            "status": "minority"
+          },
+          {
+            "name": "Niue",
+            "status": "official"
+          },
+          {
+            "name": "New Zealand",
+            "status": "minority"
+          },
+          {
+            "name": "Tonga",
+            "status": "minority"
+          },
+          {
+            "name": "Easter Island",
+            "status": "official"
+          },
+          {
+            "name": "American Samoa",
+            "status": "official"
+          },
+          {
+            "name": "Samoa",
+            "status": "official"
+          },
+          {
+            "name": "French Polynesia",
+            "status": "official"
+          },
+          {
+            "name": "Tokelau",
+            "status": "official"
+          },
+          {
+            "name": "Tonga",
+            "status": "official"
+          },
+          {
+            "name": "Tuvalu",
+            "status": "official"
+          },
+          {
+            "name": "Wallis and Futuna",
+            "status": "official"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Sunda–Sulawesi",
+        "language": [],
+        "country": [
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Guam",
+            "status": "official"
+          },
+          {
+            "name": "Northern Mariana Islands",
+            "status": "official"
+          }
+        ]
+      },
+      {
+        "type": "Language Branch",
+        "name": "Malayo-Sumbawan",
+        "language": [],
+        "country": [
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Cambodia",
+            "status": "minority"
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "official"
+          },
+          {
+            "name": "Timor-Leste",
+            "status": "co-official with Tetum"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Brunei",
+            "status": "minority"
+          },
+          {
+            "name": "Singapore",
+            "status": "minority"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority"
+          },
+          {
+            "name": "Philippines",
+            "status": "minority"
+          },
+          {
+            "name": "Vietnam",
+            "status": "minority"
+          },
+          {
+            "name": "Cambodia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "regional"
+          },
+          {
+            "name": "Malaysia",
+            "status": "minority"
+          },
+          {
+            "name": "Suriname",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Malaysia",
+            "status": "official"
+          },
+          {
+            "name": "Brunei",
+            "status": "official"
+          },
+          {
+            "name": "Singapore",
+            "status": "co-official"
+          },
+          {
+            "name": "Indonesia",
+            "status": "regional"
+          },
+          {
+            "name": "Thailand",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "regional"
+          },
+          {
+            "name": "Malaysia",
+            "status": "regional"
+          },
+          {
+            "name": "Singapore",
+            "status": "minority"
+          },
+          {
+            "name": "Palau",
+            "status": "official"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Indonesia",
+            "status": "minority"
+          },
+          {
+            "name": "Timor-Leste",
+            "status": "official"
+          }
+        ]
+      }
+    ],
+    "country": []
+  },
+  {
+    "type": "Language Family",
+    "name": "Tungusic languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "Russia",
+        "status": "minority, in Siberia"
+      },
+      {
+        "name": "China",
+        "status": "minority, in Evenki Autonomous Banner of Inner Mongolia"
+      },
+      {
+        "name": "Mongolia",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "minority, in Khabarovsk Krai"
+      },
+      {
+        "name": "China",
+        "status": "minority, in Heilongjiang Province"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Uralic languages",
+    "branch": [],
+    "country": [
+      {
+        "name": "Estonia",
+        "status": "official"
+      },
+      {
+        "name": "Finland",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "minority"
+      },
+      {
+        "name": "Finland",
+        "status": "co-official with Swedish except in Åland Islands, where Swedish is the only official language."
+      },
+      {
+        "name": "Estonia",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "minority"
+      },
+      {
+        "name": "Sweden",
+        "status": "minority"
+      },
+      {
+        "name": "Hungary",
+        "status": "official"
+      },
+      {
+        "name": "Serbia",
+        "status": "minority"
+      },
+      {
+        "name": "Romania",
+        "status": "significant minority"
+      },
+      {
+        "name": "Slovakia",
+        "status": "minority"
+      },
+      {
+        "name": "Austria",
+        "status": "minority"
+      },
+      {
+        "name": "Ukraine",
+        "status": "minority"
+      },
+      {
+        "name": "Finland",
+        "status": "minority"
+      },
+      {
+        "name": "Norway",
+        "status": "minority"
+      },
+      {
+        "name": "Russia",
+        "status": "minority"
+      },
+      {
+        "name": "Sweden",
+        "status": "minority"
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Na-Dene",
+    "branch": [
+      {
+        "type": "Language Branch",
+        "name": "Apachean",
+        "language": [],
+        "country": [
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          },
+          {
+            "name": "United States",
+            "status": "minority"
+          }
+        ]
+      }
+    ],
+    "country": []
+  },
+  {
+    "type": "Language Family",
+    "name": "Iroquoian",
+    "branch": [
+      {
+        "type": "Language Branch",
+        "name": "Cherokee",
+        "language": [],
+        "country": []
+      }
+    ],
+    "country": []
+  },
+  {
+    "type": "Language Family",
+    "name": "Austroasiatic",
+    "branch": [],
+    "country": [
+      {
+        "name": "Vietnam",
+        "status": "minority, 227,716 p. in south Vietnam (2009)"
+      },
+      {
+        "name": "Laos",
+        "status": "minority, 69,000 p. in south Laos."
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, 74,500 p. in central Vietnam (2009)"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority"
+      },
+      {
+        "name": "India",
+        "status": "official language in Meghalaya"
+      },
+      {
+        "name": "Cambodia",
+        "status": "official"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, 1.26 mi. p. in south Vietnam"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority"
+      },
+      {
+        "name": "Laos",
+        "status": "minority, 621,000 p."
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, 73,000 p."
+      },
+      {
+        "name": "Thailand",
+        "status": "minority, 10,000 p."
+      },
+      {
+        "name": "China",
+        "status": "minority"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority"
+      },
+      {
+        "name": "Cambodia",
+        "status": "minority"
+      },
+      {
+        "name": "Laos",
+        "status": "minority"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority"
+      },
+      {
+        "name": "Cambodia",
+        "status": "minority"
+      },
+      {
+        "name": "Burma",
+        "status": "Recognised regional language"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, spoken by 1.6 mi. Muong peoples in north Vietnam"
+      },
+      {
+        "name": "Vietnam",
+        "status": "official"
+      },
+      {
+        "name": "Czech Republic",
+        "status": "minority[27]"
+      },
+      {
+        "name": "United States",
+        "status": "minority[6]"
+      },
+      {
+        "name": "Australia",
+        "status": "minority, 0.21 mi.p.[28]"
+      },
+      {
+        "name": "Cambodia",
+        "status": "minority, 0.6 mi.p.[29]"
+      },
+      {
+        "name": "Canada",
+        "status": "minority, 0.22 mi.p."
+      },
+      {
+        "name": "France",
+        "status": "minority, 0.3 mi.p."
+      },
+      {
+        "name": "Laos",
+        "status": "minority, 0.1 mi.p."
+      },
+      {
+        "name": "Burma",
+        "status": "minority, 0.9 mi. peoples in Shan state"
+      },
+      {
+        "name": "China",
+        "status": "minority, 0.4 mi. peoples in China's Yunnan Province."
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Tai–Kadai",
+    "branch": [],
+    "country": [
+      {
+        "name": "China",
+        "status": "minority, in south China"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, called \"Giáy\", in north Vietnam"
+      },
+      {
+        "name": "Laos",
+        "status": "official"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority, known as Isan, 20 mi. p. in northern and eastern Thailand"
+      },
+      {
+        "name": "Thailand",
+        "status": "official"
+      },
+      {
+        "name": "China",
+        "status": "minority, spoken by Dai people in south China, noted as Tai Lü and Tai Nüa"
+      },
+      {
+        "name": "Myanmar",
+        "status": "minority,"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, 1.6 mi. p., as Thái dialect in north Vietnam"
+      },
+      {
+        "name": "Myanmar",
+        "status": "minority, but majority in Shan state"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority, in north-west"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, spoken by 1 mi. p. in north Vietnam"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, spoken by 1.6 mi. p. in north Vietnam"
+      },
+      {
+        "name": "China",
+        "status": "minority,[32] 18 mi. peoples, most in Guangxi Zhuang Autonomous Region."
+      }
+    ]
+  },
+  {
+    "type": "Language Family",
+    "name": "Hmong–Mien",
+    "branch": [],
+    "country": [
+      {
+        "name": "China",
+        "status": "minority"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority"
+      },
+      {
+        "name": "Laos",
+        "status": "minority"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority"
+      },
+      {
+        "name": "United States",
+        "status": "minority"
+      },
+      {
+        "name": "Australia",
+        "status": "minority"
+      },
+      {
+        "name": "France",
+        "status": "minority"
+      },
+      {
+        "name": "China",
+        "status": "minority"
+      },
+      {
+        "name": "Vietnam",
+        "status": "minority, called \"Dao\""
+      },
+      {
+        "name": "Laos",
+        "status": "minority"
+      },
+      {
+        "name": "Thailand",
+        "status": "minority"
+      }
+    ]
+  }
+]
