@@ -10,6 +10,7 @@ function Languagefamily(name){
   this.name = name;
   this.branch = [];
   this.country = [];
+  this.language = [];
 }
 
 function Branch(name){
@@ -33,7 +34,7 @@ function Country(name, status){
 var languages = [];
 var family_counter = -1;
 var branch_counter = -1;
-var language_counter = -1
+var language_counter = -1;
 
 function nextElement(element){
   if(element.is("h2")){
@@ -42,6 +43,7 @@ function nextElement(element){
      languages.push(newfamily);
      family_counter ++;
      branch_counter = -1;
+     language_counter = -1;
    }
   }
   else if(element.is("h3")){
@@ -71,19 +73,46 @@ function nextElement(element){
 }
 
 function nextTableElement(element){
-  if($(element).children("td").children(".flagicon").next().text()){
-    if(element.parent().prev().is("h2")){
-      var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
-      languages[family_counter]["country"].push(newcountry);
-    }else if(element.parent().prev().is("h3")){
-      var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
-      languages[family_counter]["branch"][branch_counter]["country"].push(newcountry);
-    }else if(element.parent().prev().is("h4")){
-      var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
-      languages[family_counter]["branch"][branch_counter]["language"][language_counter]["country"].push(newcountry);
-    }
-  }else if(element.html() == null){
+  if(element.html() == null){
     return;
+  }else if($(element).parent().children().eq(0).children().eq(0).text()==="Language"&&$(element).children("td").eq(2).html()!==null){
+    if($(element).children("td").children("b").children("a").eq(0).html()!==null){
+      var newlanguage = new Language($(element).children("td").children("b").children("a").eq(0).text());
+    }else{
+      var newlanguage = new Language($(element).children("td").children("a").eq(0).text());
+    }
+    language_counter ++;
+    var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
+    newlanguage.country.push(newcountry)
+    if(branch_counter != -1){
+      languages[family_counter]["branch"][branch_counter]["language"].push(newlanguage);
+    }else{
+      languages[family_counter]["language"].push(newlanguage);
+    }
+  }else if($(element).parent().children().eq(0).children().eq(0).text()==="Language"&&$(element).children("td").eq(2).html()===null){
+    if($(element).children("td").children(".flagicon").next().html()===null){
+      return;
+    }else{
+      var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
+      if(branch_counter != -1){
+        languages[family_counter]["branch"][branch_counter]["language"][language_counter]["country"].push(newcountry);
+      }else{
+        languages[family_counter]["language"][language_counter]["country"].push(newcountry);
+      }
+    }
+  }else{
+    if($(element).children("td").children(".flagicon").next().text()){
+      if(element.parent().prev().is("h2")||(element.parent().prev().is("div")&&element.parent().prev().prev().is("h2"))){
+        var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
+        languages[family_counter]["country"].push(newcountry);
+      }else if(element.parent().prev().is("h3")||(element.parent().prev().is("div")&&element.parent().prev().prev().is("h3"))){
+        var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
+        languages[family_counter]["branch"][branch_counter]["country"].push(newcountry);
+      }else if(element.parent().prev().is("h4")||(element.parent().prev().is("div")&&element.parent().prev().prev().is("h4"))){
+        var newcountry = new Country($(element).children("td").children(".flagicon").next().text(), $(element).children("td").children(".flagicon").parent().next().text());
+        languages[family_counter]["branch"][branch_counter]["language"][language_counter]["country"].push(newcountry);
+      }
+    }
   }
   nextTableElement(element.next())
 }
@@ -96,18 +125,23 @@ function FindAndProcess(data){
 }
 
 function loadData(){
-  request.get(url)
-    .then(function(html){
-      $ = cheerio.load(html);
-      return FindAndProcess(html)
-    })
-    .then(function(language){
-      var languages_json = JSON.stringify(languages, null, '  ');
-      return fs.writeFile(path.join(__dirname, "language.json"),languages_json);
-    })
-    .catch(function(err){
-      console.log(err.message)
-    })
+  return new Promise (function(resolve, reject){
+    request.get(url)
+      .then(function(html){
+        $ = cheerio.load(html);
+        return FindAndProcess(html)
+      })
+      .then(function(language){
+        var languages_json = JSON.stringify(languages, null, '  ');
+        return fs.writeFile(path.join(__dirname, "language.json"),languages_json);
+      })
+      .then(function(){
+        resolve();
+      })
+      .catch(function(err){
+        console.log(err.message)
+      })
+  })
 }
 
 module.exports = loadData;

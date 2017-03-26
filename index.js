@@ -6,22 +6,25 @@ var path = require("path");
 var Promise = require("bluebird")
 var Fuse = require("fuse.js")
 var loadData = require(path.join(__dirname, "loaddata.js"));
+var _ = require("lodash");
 
 
 function loadDataPromise(){
   return new Promise(function(resolve, reject){
-    loadData();
-    resolve();
-  })
+    loadData()
     .then(function(){
       return new Promise(function(resolve, reject){
         var language_data = require(path.join(__dirname, "language.json"));
         resolve(language_data);
       })
     })
+    .then(function(language_data){
+      resolve(language_data);
+    })
+  });
 }
 
-function languageFacts(language){
+function languagefacts(language){
   loadDataPromise()
     .then(function(language_data){
       var options = {
@@ -62,7 +65,9 @@ function languageFacts(language){
     });
 }
 
-// languageFacts("Yue");
+exports.languagefacts = languagefacts
+
+
 
 function CountryLanguage(name, status){
   this.name = name;
@@ -103,20 +108,29 @@ function countryfacts(country){
         });
       });
       language_data.forEach(function(family){
+        family.language.forEach(function(language){
+          var fuse_language = new Fuse(language.country, options)
+          var results3 = fuse_language.search(country)
+          results3.forEach(function(result){
+            record.addLanguage(language.name, result.status);
+          });
+        });
+      });
+      language_data.forEach(function(family){
         family.branch.forEach(function(branch){
           branch.language.forEach(function(language){
             var fuse_language = new Fuse(language.country, options)
-            var results3 = fuse_language.search(country)
-            results3.forEach(function(result){
+            var results4 = fuse_language.search(country)
+            results4.forEach(function(result){
               record.addLanguage(language.name, result.status);
             });
           });
         });
       });
-      var importance_array = ["de facto", "national", "official", "co-official", "unofficial", "majority", "regional", "in", "significant minority", "recognized minority", "minority"]
+      var importance_array = ["de", "national", "official", "co-official", "unofficial", "not", "majority", "regional", "in", "significant", "recognized", "minority"]
       function compare(a, b){
-      var status_level_a = importance_array.indexOf((a.status.split(" "))[0].toLowerCase().replace(",", ""));
-      var status_level_b = importance_array.indexOf((b.status.split(" "))[0].toLowerCase().replace(",", ""));
+      var status_level_a = importance_array.indexOf((a.status.split(" "))[0].toLowerCase().replace(",", "").replace(/(\[)?\d{1,2}(\])?/g, ""));
+      var status_level_b = importance_array.indexOf((b.status.split(" "))[0].toLowerCase().replace(",", "").replace(/(\[)?\d{1,2}(\])?/g, ""));
       if(status_level_a === -1){
         status_level_a = 1000;
       }
@@ -127,7 +141,8 @@ function countryfacts(country){
       }
 
       record.language = record.language.sort(compare);
-      console.log(record.language);
+      record.language = _.uniqBy(record.language, "name");
+      console.log(record);
       if(record === undefined){
         console.log("Sorry, I can't find anything. Please try again;")
       }
@@ -137,4 +152,4 @@ function countryfacts(country){
     });
 }
 
-countryfacts("china");
+exports.countryfacts = countryfacts
