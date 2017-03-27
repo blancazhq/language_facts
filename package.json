@@ -1,0 +1,34 @@
+{
+  "name": "languagefacts",
+  "version": "1.0.0",
+  "description": "a node.js module that help you find the facts about spoken languages and languages that a certain country speak",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "fs-promise": "^2.0.1",
+    "fuse.js": "^2.6.2",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blancazhq/language_facts.git"
+  },
+  "keywords": [
+    "language",
+    "linguistics"
+  ],
+  "author": "Huiqi Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blancazhq/language_facts/issues"
+  },
+  "homepage": "https://github.com/blancazhq/language_facts#readme"
+}
