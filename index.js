@@ -25,44 +25,45 @@ function loadDataPromise(){
 }
 
 function languagefacts(language){
-  loadDataPromise()
-    .then(function(language_data){
-      var options = {
-        threshold: 0.2,
-        keys: ["name"]
-        };
-      var fuse_family = new Fuse(language_data, options)
-      var result1 = fuse_family.search(language)
-      if(result1.length>0){
-        console.log(JSON.stringify(result1, null, "  "));
-      }else{
-        language_data.some(function(family){
-          var fuse_branch = new Fuse(family.branch, options)
-          var result2 = fuse_branch.search(language)
-          if(result2.length>0){
-            console.log(JSON.stringify(result2, null, "  "));
-            return true;
-          }else{
-            var foundALanguage = false;
-            family.branch.some(function(branch){
-              var fuse_language = new Fuse(branch.language, options)
-              var result3 = fuse_language.search(language)
-              if(result3.length>0){
-                console.log(JSON.stringify(result3, null, "  "));
-                foundALanguage = true;
-                return true;
-              }
-            });
-          }
-          return foundALanguage;
-          console.log("Sorry, I can't find anything. Please try again;");
-        });
-      }
-      // console.log(JSON.stringify(language_data, null, '  '));
-    })
-    .catch(function(err){
-      if(err)throw err;
-    });
+  return new Promise(function(resolve, reject){
+    loadDataPromise()
+      .then(function(language_data){
+        var options = {
+          threshold: 0.2,
+          keys: ["name"]
+          };
+        var fuse_family = new Fuse(language_data, options)
+        var result1 = fuse_family.search(language)
+        if(result1.length>0){
+          result = JSON.stringify(result1, null, "  ")
+        }else{
+          language_data.some(function(family){
+            var fuse_branch = new Fuse(family.branch, options)
+            var result2 = fuse_branch.search(language)
+            if(result2.length>0){
+              result = JSON.stringify(result2, null, "  ");
+              return true;
+            }else{
+              var foundALanguage = false;
+              family.branch.some(function(branch){
+                var fuse_language = new Fuse(branch.language, options)
+                var result3 = fuse_language.search(language)
+                if(result3.length>0){
+                  var result = JSON.stringify(result3, null, "  ");
+                  foundALanguage = true;
+                  return true;
+                }
+              });
+            }
+            result = "Sorry, I can't find anything. Please try again";
+          });
+        }
+        return result;
+      })
+      .then(function(result){
+        resolve(result);
+      })
+  });
 }
 
 exports.languagefacts = languagefacts
@@ -84,72 +85,73 @@ CountryRecord.prototype.addLanguage = function(name, status){
 }
 
 function countryfacts(country){
-  loadDataPromise()
-    .then(function(language_data){
-      var options = {
-        threshold: 0.2,
-        keys: ["name"]
-        };
-      var record = new CountryRecord(country);
-      language_data.forEach(function(family){
-        var fuse_family = new Fuse(family.country, options)
-        var results1 = fuse_family.search(country)
-        results1.forEach(function(result){
-          record.addLanguage(family.name, result.status);
-        });
-      });
-      language_data.forEach(function(family){
-        family.branch.forEach(function(branch){
-          var fuse_branch = new Fuse(branch.country, options)
-          var results2 = fuse_branch.search(country)
-          results2.forEach(function(result){
-            record.addLanguage(branch.name, result.status);
+  return new Promise(function(resolve, reject){
+    loadDataPromise()
+      .then(function(language_data){
+        var options = {
+          threshold: 0.2,
+          keys: ["name"]
+          };
+        var record = new CountryRecord(country);
+        language_data.forEach(function(family){
+          var fuse_family = new Fuse(family.country, options)
+          var results1 = fuse_family.search(country)
+          results1.forEach(function(result){
+            record.addLanguage(family.name, result.status);
           });
         });
-      });
-      language_data.forEach(function(family){
-        family.language.forEach(function(language){
-          var fuse_language = new Fuse(language.country, options)
-          var results3 = fuse_language.search(country)
-          results3.forEach(function(result){
-            record.addLanguage(language.name, result.status);
+        language_data.forEach(function(family){
+          family.branch.forEach(function(branch){
+            var fuse_branch = new Fuse(branch.country, options)
+            var results2 = fuse_branch.search(country)
+            results2.forEach(function(result){
+              record.addLanguage(branch.name, result.status);
+            });
           });
         });
-      });
-      language_data.forEach(function(family){
-        family.branch.forEach(function(branch){
-          branch.language.forEach(function(language){
+        language_data.forEach(function(family){
+          family.language.forEach(function(language){
             var fuse_language = new Fuse(language.country, options)
-            var results4 = fuse_language.search(country)
-            results4.forEach(function(result){
+            var results3 = fuse_language.search(country)
+            results3.forEach(function(result){
               record.addLanguage(language.name, result.status);
             });
           });
         });
-      });
-      var importance_array = ["de", "national", "official", "co-official", "unofficial", "not", "majority", "regional", "in", "significant", "recognized", "minority"]
-      function compare(a, b){
-      var status_level_a = importance_array.indexOf((a.status.split(" "))[0].toLowerCase().replace(",", "").replace(/(\[)?\d{1,2}(\])?/g, ""));
-      var status_level_b = importance_array.indexOf((b.status.split(" "))[0].toLowerCase().replace(",", "").replace(/(\[)?\d{1,2}(\])?/g, ""));
-      if(status_level_a === -1){
-        status_level_a = 1000;
-      }
-      if(status_level_b === -1){
-        status_level_b = 1000;
-      }
-      return status_level_a - status_level_b
-      }
-
-      record.language = record.language.sort(compare);
-      record.language = _.uniqBy(record.language, "name");
-      console.log(record);
-      if(record === undefined){
-        console.log("Sorry, I can't find anything. Please try again;")
-      }
-    })
-    .catch(function(err){
-      if(err)throw err;
-    });
+        language_data.forEach(function(family){
+          family.branch.forEach(function(branch){
+            branch.language.forEach(function(language){
+              var fuse_language = new Fuse(language.country, options)
+              var results4 = fuse_language.search(country)
+              results4.forEach(function(result){
+                record.addLanguage(language.name, result.status);
+              });
+            });
+          });
+        });
+        var importance_array = ["de", "national", "official", "co-official", "unofficial", "not", "majority", "regional", "in", "significant", "recognized", "minority"]
+        function compare(a, b){
+        var status_level_a = importance_array.indexOf((a.status.split(" "))[0].toLowerCase().replace(",", "").replace(/(\[)?\d{1,2}(\])?/g, ""));
+        var status_level_b = importance_array.indexOf((b.status.split(" "))[0].toLowerCase().replace(",", "").replace(/(\[)?\d{1,2}(\])?/g, ""));
+        if(status_level_a === -1){
+          status_level_a = 1000;
+        }
+        if(status_level_b === -1){
+          status_level_b = 1000;
+        }
+        return status_level_a - status_level_b
+        }
+        record.language = record.language.sort(compare);
+        record.language = _.uniqBy(record.language, "name");
+        return record;
+        if(record === undefined){
+          return "Sorry, I can't find anything. Please try again"
+        }
+      })
+      .then(function(record){
+        resolve(record);
+      })
+  });
 }
 
 exports.countryfacts = countryfacts
